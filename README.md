@@ -11,7 +11,7 @@
 - Output-ul este un fișier text  
   
 ### Pașii procesului  
-
+  
 **Preprocesare**  
 - [x] Binarizare
 	- [x] Otsu thresholding
@@ -24,13 +24,13 @@
 **Filtre individuale**  
 Input: imaginea obținută după preprocesare  
 Scop:  
-- [ ] Aplicare de filtre individuale sau în combinație:
+- [ ] Aplicare de filtre individuale sau în combinație
 	- [ ] Blur correction
 	- [ ] Illumination correction
 	- [ ] Edge enhancement
 	- [ ] Operații morfologice de dilatare și eroziune  
-
-** OCR Engines**  
+  
+**OCR Engines**  
 Input: 
 	1. Variațiile de imagini după filtrări
 	2. Coordonatele obținute prin segmentare
@@ -44,7 +44,7 @@ OCR Engine-uri: Tesseract, ABBYY FineReader Engine, Asprise OCR
 - [ ] Compararea acurateții folosind cifrele întoarse odată cu textul din OCR engine  
 
 **Reconstruire și Tool de corecție**  
-- [ ] Reconstruire:
+- [ ] Reconstruire
 	- [ ] Într-un fișier text cu delimitatori
 	- [ ] Într-un fișier format .pdf
 - [ ] Tool de corecție  
