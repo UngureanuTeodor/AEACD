@@ -14,21 +14,24 @@ const char* window_name = "Otsu Thresholding";
 int main(int argc, char** argv)
 {
 	// Otsu Binarization and Thresholding
-	//String imageName("Romeo and Juliet.jpg"); 
-	//src = imread(imageName, IMREAD_COLOR); // Load an image
-	//
-	//if (src.empty()) {
-	//	cout << "Cannot read image: " << imageName << std::endl;
-	//	return -1;
-	//}
+	
+	/*
+	String imageName("Romeo and Juliet.jpg"); 
+	src = imread(imageName, IMREAD_COLOR); // Load an image
+	
+	if (src.empty()) {
+		cout << "Cannot read image: " << imageName << std::endl;
+		return -1;
+	}
 
-	//cvtColor(src, src_gray, COLOR_BGR2GRAY); // Convert the image to Gray
-	//namedWindow(window_name, WINDOW_NORMAL); // Create a window to display results
+	cvtColor(src, src_gray, COLOR_BGR2GRAY); // Convert the image to Gray
+	namedWindow(window_name, WINDOW_NORMAL); // Create a window to display results
 
-	//threshold(src_gray, dst, 0, 255, CV_THRESH_BINARY | CV_THRESH_OTSU);
-	//imshow(window_name, dst);
-	//resizeWindow(window_name, 512, 830);
-
+	threshold(src_gray, dst, 0, 255, CV_THRESH_BINARY | CV_THRESH_OTSU);
+	imshow(window_name, dst);
+	resizeWindow(window_name, 512, 830);
+	*/
+	
 	// Skew Detection and Correction
 	Mat src = imread("skew.jpg", 0);
 	Mat thr, dst;
