@@ -30,7 +30,7 @@ Input: imaginea obținută după preprocesare
 	- [ ] Operații morfologice de dilatare și eroziune  
   
 **OCR Engines**  
-Input: 
+Input  
 	1. Variațiile de imagini după filtrări  
 	2. Coordonatele obținute prin segmentare  
 Scop  
