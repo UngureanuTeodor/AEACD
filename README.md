@@ -31,8 +31,9 @@ Input: imaginea obținută după preprocesare
   
 **OCR Engines**  
 Input  
-	1. Variațiile de imagini după filtrări  
-	2. Coordonatele obținute prin segmentare  
+	- Variațiile de imagini după filtrări  
+	- Coordonatele obținute prin segmentare  
+  
 Scop  
 - [ ] Transformarea imaginii în text
 - [ ] Returnarea acurateții  
