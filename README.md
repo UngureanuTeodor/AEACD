@@ -23,7 +23,6 @@
   
 **Filtre individuale**  
 Input: imaginea obținută după preprocesare  
-Scop:  
 - [ ] Aplicare de filtre individuale sau în combinație
 	- [ ] Blur correction
 	- [ ] Illumination correction
@@ -33,10 +32,10 @@ Scop:
 **OCR Engines**  
 Input: 
 	1. Variațiile de imagini după filtrări
-	2. Coordonatele obținute prin segmentare
+	2. Coordonatele obținute prin segmentare  
 Scop: 
 	- [ ] Transformarea imaginii în text
-	- [ ] Returnarea acurateții
+	- [ ] Returnarea acurateții  
 OCR Engine-uri: Tesseract, ABBYY FineReader Engine, Asprise OCR  
 
 **Acuratețe**  
