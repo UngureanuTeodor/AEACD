@@ -2,8 +2,6 @@
 
 > OCR prin votare și tool de corectare al textului rezultat  
   
-  
-  
 ### State-of-the-art  
 
 **Tesseract**
@@ -11,7 +9,7 @@
 - Open-source
 - Suportă multe format-uri de imagini
 - Output-ul este un fișier text  
-
+  
 ### Pașii procesului  
 
 **Preprocesare**  
@@ -22,15 +20,15 @@
 - [ ] Opțional: Border removal
 - [ ] Analiză layout
 	- [ ] Hough transformations - obținând coordonatele fiecărui element din imagine (masks)  
-
+  
 **Filtre individuale**  
-Input: imaginea obținută după preprocesare
-Scop: 
-	- [ ] Aplicare de filtre individuale sau în combinație:
-		- [ ] Blur correction
-		- [ ] Illumination correction
-		- [ ] Edge enhancement
-		- [ ] Operații morfologice de dilatare și eroziune  
+Input: imaginea obținută după preprocesare  
+Scop:  
+- [ ] Aplicare de filtre individuale sau în combinație:
+	- [ ] Blur correction
+	- [ ] Illumination correction
+	- [ ] Edge enhancement
+	- [ ] Operații morfologice de dilatare și eroziune  
 
 ** OCR Engines**  
 Input: 
