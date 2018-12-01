@@ -33,10 +33,11 @@ Input: imaginea obținută după preprocesare
 Input: 
 	1. Variațiile de imagini după filtrări
 	2. Coordonatele obținute prin segmentare  
-Scop: 
-	- [ ] Transformarea imaginii în text
-	- [ ] Returnarea acurateții  
-OCR Engine-uri: Tesseract, ABBYY FineReader Engine, Asprise OCR  
+Scop  
+- [ ] Transformarea imaginii în text
+- [ ] Returnarea acurateții  
+
+**OCR Engine**-uri: Tesseract, ABBYY FineReader Engine, Asprise OCR  
 
 **Acuratețe**  
 - [ ] Sistem de votare - implementarea unui sistem pentru a alege cel mai bun text returnat de engine-ul OCR curent
