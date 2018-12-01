@@ -31,7 +31,7 @@ Input: imaginea obținută după preprocesare
   
 **OCR Engines**  
 Input: 
-	1. Variațiile de imagini după filtrări
+	1. Variațiile de imagini după filtrări  
 	2. Coordonatele obținute prin segmentare  
 Scop  
 - [ ] Transformarea imaginii în text
@@ -55,7 +55,7 @@ Scop
 - [x] Otsu thresholding
 - [x] Adaptive thresholding
 - [x] Skew detection and correction
-- [x] Noise removal  
+- [ ] Noise removal  
 
 **Milestone 2**  
 - [ ] Finalizare preprocesare
