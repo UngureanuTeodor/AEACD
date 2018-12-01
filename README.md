@@ -1,9 +1,7 @@
 # AEACD
 
-> OCR prin votare și tool de corectare al textului rezultat
-<br />
-<br />
-<br />
+> OCR prin votare și tool de corectare al textului rezultat  
+
 ### State-of-the-art
 <br />
 **Tesseract**
