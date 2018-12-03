@@ -6,6 +6,7 @@
 
  
 using namespace cv;
+using namespace std;
 
 class Filtre
 {

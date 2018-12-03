@@ -3,15 +3,17 @@
 
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
+#include "tesseract/baseapi.h"
 #include <iostream>
 
 #include "Preprocesare.cpp"
 #include "Filtre.cpp"
+#include "Tesseract.cpp"
 
 using namespace cv;
 using namespace std;
 
-void main_alex() {}
+
 
 void main_andrei() {}
 
@@ -33,14 +35,22 @@ void main_teo() {
 	// Display Rotated
 	Mat rotated = preprocesare.DeskewRotationAndCorrection(src, thr);
 	imshow("Deskewed", rotated);
+	Tesseract tesseract;
+	tesseract.TesseractTool("skew.jpg");	
 }
+
+void main_alex() {
+
+	
+}
+
 
 int main(int argc, char** argv)
 {
-	// main_alex();
+
 	// main_andrei();
 	main_teo();
-
+	//main_alex();
 	waitKey();
 
 	return 0;
