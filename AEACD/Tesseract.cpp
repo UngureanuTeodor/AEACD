@@ -11,8 +11,9 @@ using namespace std;
 class Tesseract
 {
 public:
-	Mat TesseractTool(char* inputPath)
+	Mat TesseractTool(Mat inputImage)
 	{
+		char* inputPath="";
 		Mat im = imread(inputPath);
 		if (im.empty())
 		{
@@ -32,9 +33,10 @@ public:
 		tess.SetImage((uchar*)gray.data, gray.cols, gray.rows, 1, gray.cols);
 
 		// Get the text
-		//int* out = tess.AllWordConfidences();
-		char* out = tess.GetUTF8Text();
-		cout << out << endl;
+		int* outAccuracy = tess.AllWordConfidences();
+		char* outText = tess.GetUTF8Text();
+		cout << outText << endl;
+		cout <<"Accuracy: "<< outAccuracy << endl;
 
 		return im;
 	}

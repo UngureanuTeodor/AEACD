@@ -36,7 +36,7 @@ void main_teo() {
 	Mat rotated = preprocesare.DeskewRotationAndCorrection(src, thr);
 	imshow("Deskewed", rotated);
 	Tesseract tesseract;
-	tesseract.TesseractTool("skew.jpg");	
+	tesseract.TesseractTool(rotated);
 }
 
 void main_alex() {

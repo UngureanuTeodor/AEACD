@@ -1,4 +1,4 @@
 ﻿  AEACD.cpp
   Tesseract.cpp
   Generating Code...
-d:\aeacd-master\aeacd\tesseract.cpp(17): error C4700: uninitialized local variable 'inputPath' used
+  AEACD.vcxproj -> D:\AEACD proiect\Debug\AEACD.exe
