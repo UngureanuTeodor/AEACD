@@ -134,9 +134,37 @@ public:
 	// END BlurCorrection
 	/////////////////////
 
+	///////////////////////
+	// BEGIN EdgeEnhancement
 
+	void edgeEnhancement(char* imagePath) {
+		Mat imgIn, imgOut;
+		imgIn = imread(imagePath, IMREAD_GRAYSCALE);
+		Mat imgLaplacian;
 
+		//imshow("Image Original", img);
 
+		Mat kernel = (Mat_<float>(3, 3) <<
+		1, 1, 1,
+		1, -8, 1,
+		1, 1, 1); // a strong approximation of the second derivate
+
+		filter2D(imgIn, imgLaplacian, CV_32F, kernel);
+		imgIn.convertTo(imgIn, CV_32F);
+		imgOut = imgIn - imgLaplacian;
+
+		// convert back to 8bits gray scale
+		imgOut.convertTo(imgOut, CV_8U);
+		imgLaplacian.convertTo(imgLaplacian, CV_8U);
+
+		//imshow("Image enhanced", imgLaplacian);
+		//imshow("Image result", imgResult);
+
+		return imgOut;
+	}
+
+	// END EdgeEnhancement
+	/////////////////////
 
 private:
 	;
